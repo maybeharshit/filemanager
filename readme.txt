@@ -1,4 +1,1 @@
-this is a hobby project to learn c
-
-
-please feel free to email me if you have any suggestions
+this is a hobby project for me to learn low level C
