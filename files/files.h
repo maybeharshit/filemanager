@@ -16,7 +16,7 @@ file_* createfile(char* name){
 	}
 	else{
 		printf("Couldn't make new file\n");
-		return;
+		return NULL;
 	}
 }
 
