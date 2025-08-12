@@ -11,7 +11,7 @@ dir_* createdir(char* name){
 		newdir->next_dir = NULL;
 		newdir->parent_dir = NULL;
 		newdir->sub_file = NULL;
-		newdir->sub_fir = NU;
+		newdir->sub_fir = NULL;
 		newdir->id = file_id++;
 		return newdir;
 	}
