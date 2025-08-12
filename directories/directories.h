@@ -3,7 +3,7 @@
 
 
 //allocating memory and naming for newdir
-dir_* createfile(char* name){
+dir_* createdir(char* name){
 	dir_* newdir = (dir_*)malloc(sizeof(dir_));
 	if(newdir){
 		newdir->name = (char*)malloc(strlen(name));
